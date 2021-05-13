@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#0E90F8"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:text="DASHBOARD"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0B0C13"
+        android:textSize="34sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="284dp"
+        android:layout_height="347dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/jorge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+
+        android:text="ID NUMBER:20193405"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#040615"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+
+        android:layout_height="61dp"
+        android:text="NAME:JORGE C. AROGAR"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050A25"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="257dp"
+        android:layout_height="91dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="29dp"
+        android:text="LOG OUT"
+        android:textColor="#0A2BE1"
+        android:textSize="34sp"
+        app:backgroundTint="#071922" />
+
+    android:onClick = "lOGIN"
+
+</LinearLayout>
